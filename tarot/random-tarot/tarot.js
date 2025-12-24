@@ -24,6 +24,6 @@ function drawRandomCard() {
       <h3 style="border-right: 1px solid #f0f0f0; padding-right: 0.4rem;" >${card.arcana}</h3>
       <h3>${card.number}</h3>
     </div>
-    <img src="cards/${card.image}">
+    <img src="/tarot/cards/${card.image}">
   `;
 }
